@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mAtualizacoes"
+        android:icon="@drawable/baseline_update"
+        android:title="Atualizações"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mChamadas"
+        android:icon="@drawable/baseline_call"
+        android:title="Chamadas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mConversas"
+        android:icon="@drawable/baseline_chat"
+        android:title="Conversas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mConfiguracoes"
+        android:icon="@drawable/baseline_settings"
+        android:title="Configurações"
+        app:showAsAction="ifRoom" />
+</menu>
